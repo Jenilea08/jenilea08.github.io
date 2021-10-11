@@ -1,0 +1,270 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    line-height: 1.6;
+    background-color: rgb(214, 158, 211);
+    color:black;
+    overflow: hidden;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    /* CSS SMOOTH SCROLL */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+    display: flex;
+    background-color: black;
+}
+
+.Top{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 30px;
+    position: fixed;
+}
+
+span{
+    color:rgb(228, 108, 10) ;
+    
+}
+
+
+.navbar ul {
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    font-size: 19px;
+}
+
+.navbar ul li {
+    margin: 0 01rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar ul li a:hover {
+    color: rgb(95, 147, 160);
+}
+
+/* SECTION */
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* HOME */
+#home {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(32, 28, 31);
+    background: url(https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat center center/cover;
+}
+
+#home h1 {
+    font-size: 3rem;
+}   
+
+#home p {
+    height: 100px;
+    width: 50;
+}
+
+
+/* ABOUT */
+#about {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background: url(https://images.pexels.com/photos/7123069/pexels-photo-7123069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center center/cover;
+}
+
+.class-1 {
+    font-size: 20px;
+    padding: 10px;
+    width: 600px;
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    background-color: rgb(142, 157, 241);
+    margin: 10px;
+    border-radius: 30px;
+}
+
+
+.class-2 {
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    background-color: rgb(142, 157, 241);
+    margin: 10px;
+    border-radius: 30px;
+    direction: rtl;
+    margin-left: 30%;
+}
+
+/* ART */
+.class-3{
+    font-size: 1.5rem;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    background: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center center/cover;
+}
+
+.class-4 {
+    font-size: 40px;
+    color: rgb(243, 231, 231);
+    background-color:rgba(24, 1, 11, 0.349) ;
+    margin: 10px;
+}
+
+
+
+#img-1 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-2 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-3 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-4 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+.class-4 {
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-5 {
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-6 {
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-7{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-8{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-9{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-10{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+/* CONTACT */
+#sign-in{
+    background: url(https://images.pexels.com/photos/5650028/pexels-photo-5650028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat left center/cover;
+
+
+}
+
+.class-5 {
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+.class-5 input {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+hr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    width: 75%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #5f1907;
+    color: whitesmoke;
+}
+
+input{
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+}
+
