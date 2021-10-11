@@ -1,0 +1,258 @@
+@import url('https://fonts.google.com/share?selection.family=Montserrat:ital,wght@1,300');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    line-height: 1.6;
+    background-color: rgb(214, 158, 211);
+    color:black;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    /* CSS SMOOTH SCROLL */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y
+    mandatory;
+    
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    display: flex;
+    background-color: black;
+}
+
+.Top{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 30px;
+    position: fixed;
+}
+
+span{
+    color:rgb(228, 108, 10) ;
+}
+
+
+.navbar ul {
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.navbar ul li {
+    margin: 0 01rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar ul li a:hover {
+    color: rgb(95, 147, 160);
+}
+
+/* SECTION */
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* HOME */
+#home {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(32, 28, 31);
+    background: url(https://media.istockphoto.com/photos/back-to-school-concept-and-artist-kid-concept-with-drawing-book-picture-id1214043257?b=1&k=6&m=1214043257&s=170667a&w=0&h=-cYCwUzArBYLA2Hho4KjHAgQL-sPBS_JAwqXlVylAz4=) no-repeat center left/cover;
+}
+
+#home h1 {
+    font-size: 1.7rem;
+}   
+
+#home p {
+    height: 100px;
+    width: 50;
+}
+
+/* ABOUT */
+#about {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center center/cover;
+}
+
+.class-1 {
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    background-color: rgba(20, 2, 10, 0.158);
+    margin: 10px;
+    text-align: justify;
+}
+
+/* ART */
+.class-3{
+    font-size: 1.5rem;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    background: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center center/cover;
+}
+
+.class-4 {
+    font-size: 20px;
+    color: rgb(243, 231, 231);
+    background-color:rgba(24, 1, 11, 0.349) ;
+    margin: 10px;
+}
+
+
+.class-2 {
+    flex-basis: 20%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+#img-1 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-2 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-3 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+#img-4 {
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+
+.class-4 {
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-5 {
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-6 {
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-7{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-8{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-9{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+#img-10{
+    width: 400px;
+    height: 200px;
+    border: solid black;
+}
+
+/* CONTACT */
+#contact{
+    background-image: url(https://images.pexels.com/photos/168438/pexels-photo-168438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.class-5 {
+    width: 40%;
+    background-color: rgba(139, 15, 113, 0.774);
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+.class-5 input {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+hr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#con6 {
+    width: 75%;
+    height: 35px;
+}
+
+.btn {
+    width: 75%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #5f1907;
+    color: whitesmoke;
+}
+
