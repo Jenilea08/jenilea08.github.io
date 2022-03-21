@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    line-height: 1.6;
+    color:rgb(12, 11, 11);
+    overflow: hidden;
+    background-color: rgb(209, 132, 54);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    display: flex;
+    background-color: rgb(54, 4, 4);
+}
+
+.tp{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 20px;
+    position: fixed;
+    color: rgb(54, 4, 4);
+}
+
+span{
+    color:rgb(241, 240, 239) ;
+    
+}
+
+
+.navbar ul {
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    font-size: 19px;
+}
+
+.navbar ul li {
+    margin: 0 01rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar ul li a:hover {
+    color: rgb(209, 132, 54);
+}
+
+.section2{
+    margin-top: 40px;
+}
+
+.section2 p {
+    margin-left: 20px;
+}
+
+.section1{
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border: 3px black solid;
+    padding: 20px;
+    background-color: rgb(54, 4, 4);
+    color: antiquewhite;
+}
+
+#img0-1{
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 3px black solid;
+    border-radius: 200%;
+}
+
+.section0-1{
+
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border: 3px black solid;
+    padding: 20px;
+    background-color: rgb(54, 4, 4);
+    color: antiquewhite;
+}
+
+.section0-2{
+    
+    margin-left: 20px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 200px;
+    padding: 50px;
+    background-color: rgb(54, 4, 4);
+    color: antiquewhite;
+}
+
+.section0-3 {
+    margin-left: 20px;
+    background-color: rgb(54, 4, 4);
+    color: antiquewhite;
+}
+
+.section3{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+
+.section4{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.section3 img {
+    height: 300px;
+    border-radius: 30px;
+    border: 3px solid rgb(54, 4, 4);
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgb(54, 4, 4);
+    text-align: center;
+}
