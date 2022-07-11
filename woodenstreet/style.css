@@ -1,0 +1,246 @@
+body {
+
+    background-color: rgba(236, 227, 227, 0.822);
+}
+
+.cor1 a i {
+    margin: 4px;
+}
+
+.block{
+    padding: auto;
+}
+.cor1{
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.cor1 aside i:hover{
+    color: orange;
+}
+
+.block1{
+    background-color: #f4f4f4;
+}
+
+/* SIDEBAR */
+aside#side {
+    float: right;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu{
+    width: 17%;
+    
+}
+
+.sidelink{
+    margin-left: 300px;
+}
+/* 
+/* SIDEBAR */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* MAIN-COL */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+.block1 a button {
+    margin-left: 40px;
+    background-color: black;
+    color: #f4f4f4;
+}
+
+.block1 a:hover{
+    color: orangered;
+}
+
+
+
+.head{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+aside#non{
+    float: right;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.block1 input{
+    width: 400px;
+    height: 35px;
+    margin-top: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ a:hover{
+    opacity: 1;
+    color: orangered;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 350px;
+    position:absolute;
+    margin-left: 340px;
+}
+
+.aside#link{
+    margin-left: 300px;
+}
+#non input{
+    width: 450px;
+}
+
+.non1{
+    margin-left: 100px;
+}
+
+#non i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#non p{
+    font-size: 15px;
+}
+
+aside#filter0{
+    float: left;
+}
+
+#filter{
+    padding: 30px;
+    width: 250px;
+    background-color: #f4f4f4;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+#filter form input{
+    height: 15px;
+    
+}
+
+
+#filter1 a{
+    margin-bottom:0px;
+}
+
+.filter2{
+    font-size: 300px;
+}
+
+.portolio-item:hover{
+    color: #db6313;
+}
+
+.word:hover{
+    color: blue;
+}
+
+#btn {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0px;
+}
+.active{
+    color: orangered;
+}
+.stores{
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(orangered ,white);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.stores:hover a{
+    color: rgb(24, 23, 23);
+}
+
+.store0-1{
+    font-size: 15px;
+}
+
+.sigin{
+    margin-right: 300px;
+    align-items: center;
+}
+
+.sign{
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.sign button{
+    background: orangered;
+    color: white;
+}
+
+.cart1{
+    font-size: 200px;
+    text-align: center;
+}
+
+.cartb{
+    text-align: center;
+}
+
+.cartb button{
+    text-align: center;
+    color: orangered;
+}
+
+.btn23 {
+    align-items: center;
+    text-align: center;
+}
+
+.stores{
+    text-decoration: none;
+}
+
+.sign01{
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+.sign01 button {
+    width: 130px;
+    background-color: orangered;
+    color: white;
+}
+
+.lol{
+    margin-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #0a0909;
+    text-align: center;
+}
